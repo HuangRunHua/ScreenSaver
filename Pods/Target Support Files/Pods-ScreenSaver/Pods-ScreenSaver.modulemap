@@ -1,0 +1,6 @@
+framework module Pods_ScreenSaver {
+  umbrella header "Pods-ScreenSaver-umbrella.h"
+
+  export *
+  module * { export * }
+}

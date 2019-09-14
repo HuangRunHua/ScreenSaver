@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,14 @@
 		330CD50E232A2379000CD5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330CD50C232A2379000CD5E6 /* Main.storyboard */; };
 		330CD510232A237B000CD5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330CD50F232A237B000CD5E6 /* Assets.xcassets */; };
 		330CD513232A237B000CD5E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330CD511232A237B000CD5E6 /* LaunchScreen.storyboard */; };
+		3349F64D232A9EAF00E0105D /* 3.mov in Resources */ = {isa = PBXBuildFile; fileRef = 3349F64C232A9EAF00E0105D /* 3.mov */; };
+		336D68DC232BE07700F6A20C /* 5.mov in Resources */ = {isa = PBXBuildFile; fileRef = 336D68DB232BE07700F6A20C /* 5.mov */; };
+		336D68DE232BE1A400F6A20C /* 6.mov in Resources */ = {isa = PBXBuildFile; fileRef = 336D68DD232BE1A400F6A20C /* 6.mov */; };
+		ECFD76370C45D36EC97D1E7A /* Pods_ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69144C64532CB3EB629CCC8C /* Pods_ScreenSaver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32480D2EC488864CED963A42 /* Pods-ScreenSaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenSaver.debug.xcconfig"; path = "Target Support Files/Pods-ScreenSaver/Pods-ScreenSaver.debug.xcconfig"; sourceTree = "<group>"; };
 		330CD503232A2379000CD5E6 /* ScreenSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		330CD506232A2379000CD5E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		330CD508232A2379000CD5E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,12 @@
 		330CD50F232A237B000CD5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		330CD512232A237B000CD5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		330CD514232A237B000CD5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3349F64C232A9EAF00E0105D /* 3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 3.mov; sourceTree = "<group>"; };
+		336D68DB232BE07700F6A20C /* 5.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 5.mov; sourceTree = "<group>"; };
+		336D68DD232BE1A400F6A20C /* 6.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 6.mov; sourceTree = "<group>"; };
+		336D68DF232BE50900F6A20C /* ScreenSaver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenSaver.entitlements; sourceTree = "<group>"; };
+		63C65E754B449D4558022594 /* Pods-ScreenSaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenSaver.release.xcconfig"; path = "Target Support Files/Pods-ScreenSaver/Pods-ScreenSaver.release.xcconfig"; sourceTree = "<group>"; };
+		69144C64532CB3EB629CCC8C /* Pods_ScreenSaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenSaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECFD76370C45D36EC97D1E7A /* Pods_ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,8 @@
 			children = (
 				330CD505232A2379000CD5E6 /* ScreenSaver */,
 				330CD504232A2379000CD5E6 /* Products */,
+				3B27F81B312AFDC6037A4023 /* Pods */,
+				527291D3B82AF32549EE7D39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +70,36 @@
 		330CD505232A2379000CD5E6 /* ScreenSaver */ = {
 			isa = PBXGroup;
 			children = (
+				336D68DF232BE50900F6A20C /* ScreenSaver.entitlements */,
 				330CD506232A2379000CD5E6 /* AppDelegate.swift */,
 				330CD508232A2379000CD5E6 /* SceneDelegate.swift */,
 				330CD50A232A2379000CD5E6 /* ViewController.swift */,
 				330CD50C232A2379000CD5E6 /* Main.storyboard */,
 				330CD50F232A237B000CD5E6 /* Assets.xcassets */,
 				330CD511232A237B000CD5E6 /* LaunchScreen.storyboard */,
+				336D68DD232BE1A400F6A20C /* 6.mov */,
+				336D68DB232BE07700F6A20C /* 5.mov */,
+				3349F64C232A9EAF00E0105D /* 3.mov */,
 				330CD514232A237B000CD5E6 /* Info.plist */,
 			);
 			path = ScreenSaver;
+			sourceTree = "<group>";
+		};
+		3B27F81B312AFDC6037A4023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32480D2EC488864CED963A42 /* Pods-ScreenSaver.debug.xcconfig */,
+				63C65E754B449D4558022594 /* Pods-ScreenSaver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		527291D3B82AF32549EE7D39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69144C64532CB3EB629CCC8C /* Pods_ScreenSaver.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 330CD517232A237B000CD5E6 /* Build configuration list for PBXNativeTarget "ScreenSaver" */;
 			buildPhases = (
+				53649338365D2A19364955F8 /* [CP] Check Pods Manifest.lock */,
 				330CD4FF232A2379000CD5E6 /* Sources */,
 				330CD500232A2379000CD5E6 /* Frameworks */,
 				330CD501232A2379000CD5E6 /* Resources */,
+				BC2F40268F68370ED57620B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +162,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3349F64D232A9EAF00E0105D /* 3.mov in Resources */,
+				336D68DC232BE07700F6A20C /* 5.mov in Resources */,
 				330CD513232A237B000CD5E6 /* LaunchScreen.storyboard in Resources */,
 				330CD510232A237B000CD5E6 /* Assets.xcassets in Resources */,
+				336D68DE232BE1A400F6A20C /* 6.mov in Resources */,
 				330CD50E232A2379000CD5E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53649338365D2A19364955F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScreenSaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2F40268F68370ED57620B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScreenSaver/Pods-ScreenSaver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScreenSaver/Pods-ScreenSaver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScreenSaver/Pods-ScreenSaver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		330CD4FF232A2379000CD5E6 /* Sources */ = {
@@ -282,9 +364,12 @@
 		};
 		330CD518232A237B000CD5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32480D2EC488864CED963A42 /* Pods-ScreenSaver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScreenSaver/ScreenSaver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = YRB62S584T;
 				INFOPLIST_FILE = ScreenSaver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +378,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimeTraveller.ScreenSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,9 +386,12 @@
 		};
 		330CD519232A237B000CD5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C65E754B449D4558022594 /* Pods-ScreenSaver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ScreenSaver/ScreenSaver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = YRB62S584T;
 				INFOPLIST_FILE = ScreenSaver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +400,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.TimeTraveller.ScreenSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
