@@ -34,14 +34,14 @@
 		3B6856E1C01DE92FD7D87523BAD09CD2 /* Pods-ScreenSaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScreenSaver-dummy.m"; sourceTree = "<group>"; };
 		415D19D0ACB1A7CCEFD22C38EDBB3C1A /* Pods-ScreenSaver-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScreenSaver-acknowledgements.markdown"; sourceTree = "<group>"; };
 		57750F52FDE03E75DA15681529DA0387 /* Player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Player.modulemap; sourceTree = "<group>"; };
-		5C08AE3835639A2111ACBCE5382CE742 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Player.framework; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C08AE3835639A2111ACBCE5382CE742 /* Player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDA78EED956CFF13C2C1A2CA1978A6B /* Player-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Player-umbrella.h"; sourceTree = "<group>"; };
 		62D045999A7420DBF737829B80A54A8D /* Pods-ScreenSaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScreenSaver.modulemap"; sourceTree = "<group>"; };
-		6F3F0856B4D4EE1FF3D00E884F5605B2 /* Pods_ScreenSaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScreenSaver.framework; path = "Pods-ScreenSaver.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3F0856B4D4EE1FF3D00E884F5605B2 /* Pods_ScreenSaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScreenSaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		722654BC30B36F82884A8CB840D53293 /* Pods-ScreenSaver-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenSaver-Info.plist"; sourceTree = "<group>"; };
 		946476BD740CAF376523F66C4AA80155 /* Player.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Sources/Player.swift; sourceTree = "<group>"; };
 		9BEA037394CE87E2CC99F3FD8F18CC43 /* Player-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Player-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BED40130A3D7ED904C08D9259BF08060 /* Player.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Player.xcconfig; sourceTree = "<group>"; };
 		CB325948345DC7A00AF4296B8C72696B /* Pods-ScreenSaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScreenSaver-umbrella.h"; sourceTree = "<group>"; };
 		E2216C34906922B8F5EF4FCEE1E78320 /* Pods-ScreenSaver-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScreenSaver-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -139,7 +139,6 @@
 				946476BD740CAF376523F66C4AA80155 /* Player.swift */,
 				3E2810F62439202610D7766006C1EEF6 /* Support Files */,
 			);
-			name = Player;
 			path = Player;
 			sourceTree = "<group>";
 		};
@@ -236,6 +235,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 2126282B86F8AB4DCF76F55CF0BD5E93 /* Products */;

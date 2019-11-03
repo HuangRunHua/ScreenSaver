@@ -28,7 +28,6 @@ class ViewController: UIViewController {
         
         // 程序运行的时候不熄屏
         UIApplication.shared.isIdleTimerDisabled = true
-        
         self.playVideo(player: self.player)
         
         testMotion()
@@ -36,6 +35,8 @@ class ViewController: UIViewController {
     
     // 给player的视图添加约束
     func addConstrian(player: Player) {
+        
+        self.view.backgroundColor = .black
         
         self.player.view.frame = self.view.bounds
         
@@ -65,13 +66,9 @@ class ViewController: UIViewController {
         
         self.addConstrian(player: self.player)
         
-        self.player.fillMode = .resizeAspectFill
+        self.player.fillMode = .resizeAspect
 
-        if UIDevice.current.userInterfaceIdiom == .pad {
-            filePath = Bundle.main.path(forResource: "3", ofType: "mov")
-        } else if UIDevice.current.userInterfaceIdiom == .phone {
-            filePath = Bundle.main.path(forResource: "6", ofType: "mov")
-        }
+        filePath = Bundle.main.path(forResource: "airpods", ofType: "mov")
         
         let videoURL = URL(fileURLWithPath: filePath!)
         self.player.url = videoURL
