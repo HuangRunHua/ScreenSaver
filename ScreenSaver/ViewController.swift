@@ -33,6 +33,11 @@ class ViewController: UIViewController {
         testMotion()
     }
     
+    // Hide home indicator.  
+    override var prefersHomeIndicatorAutoHidden: Bool {
+        return true
+    }
+    
     // 给player的视图添加约束
     func addConstrian(player: Player) {
         
