@@ -34,7 +34,7 @@ If you think the program monitoring device is not very sensitive, you can make i
 ```swift
 func testMotion() {
         if motionManager.isDeviceMotionAvailable {
-            // 设置0.5是为了监测细微摇动
+            // 设置0.4是为了监测细微摇动
             let ds: Float = 0.4
             motionManager.deviceMotionUpdateInterval = 0.1
             motionManager.startDeviceMotionUpdates(to: queue, withHandler: { (motion: CMDeviceMotion?, error: Error?) -> Void in
